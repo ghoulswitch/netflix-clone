@@ -40,3 +40,101 @@ select {
     border-radius: 5px;
     padding: 7px 15px;
 }
+
+/* MAIN */
+
+.main-title {
+    /* background-color: rgba(250, 235, 215, 0.212); */
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-left: 70px;
+    padding: 20px;
+    width: 1000px;
+}
+
+.main-subtitle {
+    /* background-color: rgba(245, 245, 220, 0.37); */
+    color: white;
+    margin-left: 70px;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    margin-left: 70px;
+    padding: 20px;
+    font-weight: 200;
+}
+
+form {
+    /* background-color: rgba(255, 228, 196, 0.397); */
+    margin-left: 70px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.input-email {
+    background-color: #1d1d1d7c;
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: solid 0.1em white;
+    border-radius: 5px;
+}
+
+.main-button {
+    background-color: #E50914;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 5px;
+}
+
+/* SECTION */
+
+section {
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E50914 104.96%);
+    height: 1200px;
+    margin-top: 100px;
+}
+
+.section-info {
+    background-color: #00081d56;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+}
+
+.section-box-texto {
+    /* background-color: rgba(165, 42, 42, 0.315); */
+    display: block; 
+}
+
+.section-box-texto h1 {
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.section-box-texto h2 {
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.shadow {
+    background-color: #00000077;
+    margin: 0 auto;
+    width: 80%;
+    height: 7px;
+}

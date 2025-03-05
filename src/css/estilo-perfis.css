@@ -8,12 +8,12 @@ body {
     /* background-color: rgba(245, 245, 220, 0.041); */
     width: 1100px;
     height: 540px;
-    margin: 30px 0 0 150px;
+    margin: 30px 0 0 120px;
 }
 
 .quem-assiste-container {
     /* background-color: rgba(245, 245, 220, 0.041); */
-    width: 480px;
+    width: 500px;
     display: flex;
     position: relative;
     margin: auto;
@@ -36,7 +36,7 @@ body {
     grid-auto-flow: column;
     display: grid;
     gap: 30px;
-    margin: 90px 0 0 150px;
+    margin: 90px 0 0 95px;
     color: gray;
     display: flex;
     position:absolute;
@@ -45,7 +45,7 @@ body {
 .container-perfis img {
     width: 180px; 
     height: auto;
-    margin: -25px 0 0 0;
+    margin: auto;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@ body {
 .container-perfis span {
     justify-content: center;
     display: flex;
-    margin-top: 4px;
+    margin-top: 7px;
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@ body {
     display: flex;
     position: relative;
     margin: auto;
-    top: 360px;
+    top: 370px;
     /* font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif; pp */
 }
 

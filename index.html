@@ -28,12 +28,47 @@
                     <option> Inglês </option>
                 </select>
 
-                <button type="button" class="button-entrar"> Entrar </button>
+                <button type="button" class="button-entrar" onclick="entrarPaginaPerfis()"> Entrar </button>
             </nav>
         </header>
 
-        <main></main>
+        <main>
+            <h1 class="main-title"> Filmes, séries e muito mais, <br> sem limites </h1>
+            <h2 class="main-subtitle"> Assista onde quiser. Cancele quando quiser. </h2>
+            <h3> Quer assistir? Informe seu email para criar ou reiniciar sua assinatura. </h3>
+
+            <form>
+                <input type="email" placeholder="Email" class="input-email">
+                <button class="main-button"> Vamos lá > </button>
+            </form>
+        </main>
+
+        <section>
+            <div class="section-info">
+                <div class="section-box-texto">
+                    <h1 class="section-texto-title"> Aproveite na TV </h1>
+                    <h2> Assista em Smart Tvs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-Ray e outos dispositivos. </h2>
+                </div>
+
+                <img src="./src/media/tv.png" alt="netflix-tv" class="section-img">
+            </div>
+
+            <div class="shadow"></div>
+
+            <div class="section-info">
+
+                <img src="./src/media/tablet.png" alt="netflix-tv" class="section-img">
+
+                <div class="section-box-texto">
+                    <h1 class="section-texto-title"> Assista onde quiser </h1>
+                    <h2> Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV. </h2>
+                </div>
+                
+            </div>
+        </section>
     </div>
+
+    <script src="./src/script/script-index.js"></script>
 
 </body>
 </html>
