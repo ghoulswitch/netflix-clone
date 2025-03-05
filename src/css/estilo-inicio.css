@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: #141414;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-superior {
-    /* background-color: gray; */
+    background: linear-gradient(to bottom, #141414, transparent);
     display: flex;
     position: fixed;
     top: 0;
@@ -47,11 +47,13 @@ body {
 }
 
 /*  */
-.area-perfil {
+.nav-superior-perfil {
+    /* background-color: beige; */
     display: flex;
     position: fixed;
     gap: 5px;
     right: 28px;
+    padding: 5px;
 }
 
 .lupa {
@@ -62,4 +64,26 @@ body {
 .sininho {
     /* background-color: rgba(0, 0, 139, 0.425); */
     padding: 5px;
+}
+
+.area-perfil {
+    cursor: pointer;
+}
+
+.perfil-square{
+    width: 32px;
+    height: 32px;
+    padding: 5px 0 5px 5px;
+}
+
+.caret {
+    /* background-color: rgba(250, 235, 215, 0.438); */
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    height: 0;
+    margin-left: 10px;
+    padding-top: 3px;
+    transition: transform 367mscubic-bezier(.21,0,.07,1);
+    width: 0;
 }
